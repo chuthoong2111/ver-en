@@ -152,4 +152,9 @@ img {
 .main-nav > li.has-sub-nav:hover > .sub-nav {
   opacity: 1;
   visibility: visible;
+}
+
+.itinerary-card__meta {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */

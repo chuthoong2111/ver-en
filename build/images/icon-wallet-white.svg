@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Price Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Responsive-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-1920" transform="translate(-289.000000, -9093.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Trips-to-Inspire" transform="translate(0.000000, 8056.000000)">
+                <g id="Itinerary-Card" transform="translate(255.000000, 582.000000)">
+                    <g id="Price-Icon" transform="translate(34.000000, 455.000000)">
+                        <path d="M0,1.7 C0,0.765 0.765,0 1.7,0 L14.45,0 C14.919442,0 15.3,0.380557963 15.3,0.85 L15.3,1.7 L1.7,1.7 L1.7,2.55 L16.15,2.55 C16.619442,2.55 17,2.93055796 17,3.4 L17,11.9 C17,12.8388841 16.2388841,13.6 15.3,13.6 L1.7,13.6 C0.761115925,13.6 0,12.8388841 0,11.9 L0,1.7 Z M14.025,9.35 C14.7291631,9.35 15.3,8.77916306 15.3,8.075 C15.3,7.37083694 14.7291631,6.8 14.025,6.8 C13.3208369,6.8 12.75,7.37083694 12.75,8.075 C12.75,8.77916306 13.3208369,9.35 14.025,9.35 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
