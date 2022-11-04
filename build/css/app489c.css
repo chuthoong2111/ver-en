@@ -1,4 +1,4 @@
-@import url(http://hello.myfonts.net/count/403e02);
+/* @import url(http://hello.myfonts.net/count/403e02); */
 
 *,
 :after,
@@ -43,7 +43,7 @@ textarea {
     font: inherit
 }
 
-@media (prefers-reduced-motion:reduce) {
+/* @media (prefers-reduced-motion:reduce) {
     html:focus-within {
         scroll-behavior: auto
     }
@@ -58,7 +58,7 @@ textarea {
         transition-duration: .01ms !important;
         scroll-behavior: auto !important
     }
-}
+} */
 
 html {
     scroll-behavior: smooth
@@ -80,8 +80,10 @@ a {
     --ff-ernestandemily: "ErnestAndEmily", sans-serif;
     --green-very-light: #c5ccca;
     --green-light: #29aae1;
-    --green-light-rollover: #54606e;
+    /* --green-light-rollover: #54606e; */
+    --green-light-rollover: #29aae1;
     --green-light-medium: #494c56;
+    
     --green-medium: #126BB4;
     --green-medium-dark: #353f53;
     --green-dark: #121f58;
