@@ -160,3 +160,15 @@ img {
     margin: 0;
     padding: 0;
 }
+// tour detail
+.item-day .img-fluid {
+    width:100%;       
+}
+.tour-detail .item-day{
+    margin-top: 4rem;
+}
+@media (min-width: 992px) {
+    .tour-detail .item-day:nth-child(2n+0){
+        flex-direction: row-reverse;
+    }
+ }
