@@ -172,3 +172,42 @@ img {
         flex-direction: row-reverse;
     }
  }
+ .list-day{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    li{
+        flex-basis: 100%;
+        @media (min-width: 992px) {
+        flex-basis: 47.5%;
+        }
+        
+    }
+ }
+ .area-patch__image{
+    margin-bottom: 0; 
+    picture{
+        width: 120px;
+        img{
+            width: 100%;
+        }
+    }
+ }
+ .stars{
+ letter-spacing: 0;
+ margin-bottom: .75rem;
+}
+.name-hotel{
+    font-size: 90%;
+}
+.room-hotel, .add-hotel{
+ letter-spacing: 0;
+ text-transform: none;
+ font-size: 90%;
+ opacity: .8;
+ margin-bottom: 0.5rem;
+ font-weight: normal;
+}

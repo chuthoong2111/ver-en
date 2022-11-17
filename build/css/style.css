@@ -172,4 +172,48 @@ img {
   .tour-detail .item-day:nth-child(2n+0) {
     flex-direction: row-reverse;
   }
+}
+.list-day {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.list-day li {
+  flex-basis: 100%;
+}
+@media (min-width: 992px) {
+  .list-day li {
+    flex-basis: 47.5%;
+  }
+}
+
+.area-patch__image {
+  margin-bottom: 0;
+}
+.area-patch__image picture {
+  width: 120px;
+}
+.area-patch__image picture img {
+  width: 100%;
+}
+
+.stars {
+  letter-spacing: 0;
+  margin-bottom: 0.75rem;
+}
+
+.name-hotel {
+  font-size: 90%;
+}
+
+.room-hotel, .add-hotel {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */
