@@ -21,7 +21,12 @@ a:hover {
 a:hover {
     opacity: .8;
 }
-
+.header-main{
+    padding: 0;
+    .site-logo{
+        padding: 8px 30px;
+    }
+}
 .header-top-bar {
     display: flex;
     position: relative;

@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Site</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="./build/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
 
-    <link rel="preload" href="build/css/app489c.css?id=55d77dfad96399be9a18" as="style">
-    <link rel="stylesheet" href="build/css/app489c.css?id=55d77dfad96399be9a18">
+    <link rel="preload" href="build/css/tourdetail.css" as="style">
+    <link rel="stylesheet" href="build/css/tourdetail.css">
     <link rel="stylesheet" href="./build/css/style.css">
 </head>
 
@@ -1464,7 +1465,7 @@
                                         <label class="fw-bold">Nome e cognome<span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-4">
                                                 <select name="ddlGender" id="ddlGender">
                                                     <option value="1">Maschile</option>
@@ -1483,7 +1484,7 @@
                                         <label class="fw-bold">E-mail<span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-12">
                                                 <input name="txtEmail" id="txtEmail" type="text" class="mw-100" placeholder="E-mail">
                                                 <div id="req2" class="form-text color-red" style="display: none;">Prego inserire: E-mail</div>
@@ -1496,7 +1497,7 @@
                                         <label class="fw-bold">Numero telefonico<span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-12">
                                                 <input name="txtTelephone" type="tel" id="txtTelephone" class="mw-100" placeholder="(845) 555-1212">
                                                 <div id="req3" class="form-text color-red" style="display: none;">Prego inserire: Numero telefonico</div>
@@ -1510,7 +1511,7 @@
                                         <label class="fw-bold">Data di partenza<span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 align-items-center form-group">
+                                        <div class="row g-2 align-items-center form-group">
                                             
                                             <div class="col-sm-3">
                                                 <select name="ddlMonth" id="ddlMonth" ">
@@ -1549,7 +1550,7 @@
                                             I numeri di partecipanti<span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-4">
                                                 <select name="ddlAdult" id="ddlAdult">
                                                     <option value="0">Adulto </option>
@@ -1635,7 +1636,7 @@
                                             Il vostro budget <span class="color-red">*</span></label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-9">
                                                 <select name="txtBudget" id="txtBudget">
                                                     <option value="0">Scegli</option>
@@ -1656,7 +1657,7 @@
                                         <label class="fw-bold">Come conoscete Asiatica Travel? </label>
                                     </div>
                                     <div class="col-md-9">
-                                        <div class="row gx-2 form-group">
+                                        <div class="row g-2 form-group">
                                             <div class="col-md-9">
                                                 <select name="ddlKnowAst" id="ddlKnowAst" class="mw-100">
                                                     <option value="0">Sconosciuto</option>
@@ -1680,7 +1681,7 @@
                                             <label class="fw-bold">Altri richieste speciali</label>
                                         </div>
                                         <div class="col-md-9">
-                                            <div class="row gx-2 form-group">
+                                            <div class="row g-2 form-group">
                                                 <div class="col-md-12">
                                                     <textarea name="likeToSee" id="t1" cols="30" rows="5" placeholder="Optional - tell us if you have specific plans"></textarea>
                                                 </div>
